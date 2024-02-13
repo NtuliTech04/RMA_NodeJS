@@ -22,4 +22,4 @@ Blah blah blah
 
 ## Landing Page 
 
-<img width="400" alt="landingpage" src="public/images/screenshots/Screenshot (73).png">
+<img alt="landingpage" src="public/images/screenshots/Screenshot (73).png">
