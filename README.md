@@ -32,5 +32,20 @@ Blah blah blah
 
 <img alt="landingpage" src="public/images/screenshots/Screenshot (74).png">
 
+## Teacher Options
+<img alt="landingpage" src="public/images/screenshots/Screenshot (76).png">
+
+## List All Student Results
+
+<img alt="landingpage" src="public/images/screenshots/Screenshot (78).png">
+
+## Add Student Results
+<img alt="landingpage" src="public/images/screenshots/Screenshot (77).png">
+
+
+
+
+
+
 
 
