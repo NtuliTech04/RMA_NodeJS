@@ -19,7 +19,7 @@ This is a small web application built to manage student results. It is a trainin
 4. Step 4
 
 
-# Screen-Shots 
+# Screenshots 
 
 ## Landing Page 
 
