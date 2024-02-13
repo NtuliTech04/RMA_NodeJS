@@ -3,11 +3,11 @@
 
 ### Description
 
-Blah blah blah
+This is a small web application built to manage student results. It is a training assignment where HTML, CSS, JavaScript, and NodeJS(ExpressJS) frameworks are required to be used. It is designed to accomplish these tasks:
 
-* Point
-* Point
-* Point
+* Teacher login to add, view, edit, and delete student records.
+* Student searches their results by providing a roll number which should match their date of birth.
+* That's it. Just basic CRUD using NodeJS
 
 # How it works!
 
