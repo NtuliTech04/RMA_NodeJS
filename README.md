@@ -7,15 +7,16 @@ This is a small web application built to manage student results. It is a trainin
 
 * Teacher login to add, view, edit, and delete student records.
 * Student searches their results by providing a roll number which should match their date of birth.
-* That's it. Just basic CRUD using NodeJS
+* That's it, just basic CRUD using NodeJS
 
 # How it works!
 
 ### Installation Guid
 
-1. npm install nodemon --save-dev (as dev dependency...)
-2. Step
-3. Step
+1. npm i express morgan ejs express-ejs-layouts body-parser dotenv mongoose axios
+2. npm install nodemon --save-dev
+3. Step 3
+4. Step 4
 
 
 # Screen-Shots 
