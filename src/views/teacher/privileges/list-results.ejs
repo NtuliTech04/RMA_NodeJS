@@ -1,0 +1,29 @@
+<a href="/teacher/options" class="btn btn-info" style="margin-top:5px;">Back</a>
+<h4 >All Students</h4>
+<div class="tableDiv">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Roll No.</th>
+        <th scope="col">Name</th>       
+        <th scope="col">Date of Birth</th>
+        <th scope="col">Score</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+        <%  results.forEach(student => { %>
+            <tr class="head">
+                <td><%= student.roll %></td>
+                <td><%= student.name %></td>               
+                <td><%= student.dob %></td>
+                <td><%= student.score %></td> 
+                <td>
+                  <a href="/teacher/update-results/<%= student._id %> "><img style="margin: 0px 5px;" src="https://img.icons8.com/material-outlined/30/000000/edit.png"/></a>
+                  <a href="/teacher/delete-results/<%= student._id %> "><img style="margin: 0px 5px;" src="https://img.icons8.com/ios-glyphs/30/000000/filled-trash.png"/></a>
+                </td>
+              </tr>
+        <%}) %>
+    </tbody>
+  </table>
+</div>
