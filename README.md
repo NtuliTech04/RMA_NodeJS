@@ -23,3 +23,14 @@ Blah blah blah
 ## Landing Page 
 
 <img alt="landingpage" src="public/images/screenshots/Screenshot (73).png">
+
+## Teacher Login 
+
+<img alt="landingpage" src="public/images/screenshots/Screenshot (75).png">
+
+## Student Login 
+
+<img alt="landingpage" src="public/images/screenshots/Screenshot (74).png">
+
+
+
