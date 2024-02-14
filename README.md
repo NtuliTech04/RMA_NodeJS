@@ -12,38 +12,45 @@ This is a small web application built to manage student results. It is a trainin
 # How it works!
 
 ### Installation Guid
+1. npm install
 
+### Run Application
+1. npm start
+*  or
+2. npx nodemon server 
+
+* __NB: Teacher Login Password:__ P@55w0rd 
+
+### Initialization Guid
 1. npm i express morgan ejs express-ejs-layouts body-parser dotenv mongoose axios
 2. npm install nodemon --save-dev
-3. Step 3
-4. Step 4
 
 
 # Screenshots 
 
 ## Landing Page 
-
-<img alt="landingpage" src="public/images/screenshots/Screenshot (73).png">
+<img alt="landingpage" src="public/images/screenshots/Landing.png">
 
 ## Teacher Login 
-
-<img alt="landingpage" src="public/images/screenshots/Screenshot (75).png">
-
-## Student Login 
-
-<img alt="landingpage" src="public/images/screenshots/Screenshot (74).png">
+<img alt="landingpage" src="public/images/screenshots/Teacher Login.png">
 
 ## Teacher Options
-<img alt="landingpage" src="public/images/screenshots/Screenshot (76).png">
+<img alt="landingpage" src="public/images/screenshots/Teacher Options.png">
 
 ## List All Student Results
-
-<img alt="landingpage" src="public/images/screenshots/Screenshot (78).png">
+<img alt="landingpage" src="public/images/screenshots/All Results.png">
 
 ## Add Student Results
-<img alt="landingpage" src="public/images/screenshots/Screenshot (77).png">
+<img alt="landingpage" src="public/images/screenshots/Add Results.png">
 
+## Update Student Results
+<img alt="landingpage" src="public/images/screenshots/Update Results.png">
 
+## Student Login 
+<img alt="landingpage" src="public/images/screenshots/Student Login.png">
+
+## Single Student Results
+<img alt="landingpage" src="public/images/screenshots/My Results.png">
 
 
 
