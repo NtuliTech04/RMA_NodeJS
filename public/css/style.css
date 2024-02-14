@@ -1,89 +1,94 @@
+html {
+  scroll-padding-top: 3.5rem;
+}
+
+header {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+section {
+  padding: 2em 0 2em;
+}
+
+
+/*===Style Override===*/
 body{
-    margin-left: 10px;
-  }
-  .navbar{
-    background-color: rgb(145, 219, 176);
-    margin-left: -10px;    
-  }
-  .navbar-brand{
-   color: black ;
-   font-weight: bold;
-   margin-left: 40%;
-  }
-  .text{
-    margin-left: 47%;
-    margin-top: 60px;
-    font-weight: bold;
-    margin-bottom: -10px;
-  }
-  .btn{
-    margin-right: 30px;  
-    font-weight: bold;
-  }
-  .optionDiv {
-    width: 100vw;
-    height: 85vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .optionDiv button {
-    margin: 0px 100px;  
-  }
-  .teachLog {
-    height: 50vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .teachForm {    
-    padding: 60px 40px;
-    border-radius: 10px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  }
-  .teachForm input {
-    width: 300px;
-  }
-  .tableDiv {
-    margin: 10px 200px;  
-    padding: 60px 40px;
-    border-radius: 10px;
-  }
-  .table {
-    text-align: center;
-  }
-  .addStu {
-    border-width: 2px;
-    padding: 60px 40px;
-    border-radius: 10px;
-    margin: 0 300px;
-  }
-  .stuTable {
-    border-width: 2px;
-    padding: 60px 40px;
-    border-radius: 10px;
-    margin: 0px 200px;
-    margin-bottom: 50px;
-  }
-  h4 {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;  
-    margin-bottom: -40px;
-    text-transform: capitalize;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  h3{
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 20px;  
-    text-align: center;  
-  }
-  .not-found-content{
-    font-size: 20px;
-    color: red;
-    margin-top: 20px;
-    margin-left: 10px;
-  }
+  background-color: #f5f5f5;
+}
+
+
+
+/*===Custom Style===*/
+
+.bg-prima {
+  --bs-bg-opacity: 1;
+  background-color: #2e008b !important;
+}
+
+.bg-prima a{
+  width: 150px;
+}
+
+.btn-sight {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #f8f9fa;
+  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #47d7ac;
+  --bs-btn-hover-border-color: #c6c7c8;
+  --bs-btn-focus-shadow-rgb: 211, 212, 213;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #c6c7c8;
+  --bs-btn-active-border-color: #babbbc;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #f8f9fa;
+  --bs-btn-disabled-border-color: #f8f9fa;
+}
+
+section.about-app{
+  background-color: rgba(19,41,75,.7);
+}
+
+header div h1.title{
+  color: #47d7ac;
+}
+
+/***FormGroup Styles***/
+section.form{
+  margin-top: 5em;
+}
+
+.container a.btn-outline-dark{
+  margin-bottom: 3em;
+}
+
+/***Teacher Login***/
+.container.teacher-login{
+  margin-top: 3em;
+}
+
+/***Add Student***/
+.add-student-section,
+.edit-student-section,
+.list-student-section{
+  position: relative;
+  top: -2em;
+}
+
+/***List Students***/
+.list-students .no-data{
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 15%;
+}
+
+.list-students .table{
+  position: relative;
+  top: 3em;
+}
+
+.list-students .table td a{
+  margin: 0px 5px;
+}

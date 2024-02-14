@@ -1,20 +1,29 @@
-<a href="/" class="btn btn-info" style="margin-top:5px;">Back</a>
-<h3>Teacher Login</h3>
-<div class="teachLog">
-  <form method="POST" class="teachForm">
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password : </label>
-      <input type="password" name="password"  class="form-control" id="pass">
-      <br>
-      <input type="checkbox" style="width: 30px;" onclick="myFunction()">Show Password
-      <br>
+<section class="form container-fluid">
+  <a href="/" class="btn btn-outline-dark">Go Back</a>
+  <div class="container teacher-login">
+    <div class="row">
+      <form method="post">
+        <div class="col-lg-6">
+          <h3>Teacher Login</h3>
+          <div class="mb-3">
+            <label class="form-label">Password : </label>
+            <input class="form-control" type="password" name="password" id="passTxt">
+            <!-- error -->
+            <div class="text-danger" style="display: none;">Enter your password to login.</div>
+            <div class="text-danger" style="display: none;" id="invalidPass">The provided password is incorrect.</div>
+            <br>
+            <input type="checkbox" style="width: 30px;" onclick="myFunction()">Show Password
+            <br>
+          </div>
+          <a><button type="submit" class="btn btn-success">Login</button></a>
+        </div>
+      </form>
     </div>
-    <a><button type="submit" class="btn btn-primary">Submit</button></a>
-  </form>
-</div>
+  </div>
+</section>
 <script>
   function myFunction() {
-  var x = document.getElementById("pass");
+  var x = document.getElementById("passTxt");
   if (x.type === "password") {
     x.type = "text";
   } else {

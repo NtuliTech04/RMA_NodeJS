@@ -1,15 +1,39 @@
-<a href="/" class="btn btn-info" style="margin-top:5px;">Back</a>
-<h3>Student Login</h3>
-<div class="teachLog">
-  <form method="POST" class="teachForm">
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Roll no : </label>
-        <input type="number" name="roll" class="form-control" id="exampleInputPassword1">
+<section class="form container-fluid">
+  <a href="/" class="btn btn-outline-dark">Go Back</a>
+  <div class="container student-login">
+    <h3 class="text-center"><u>Find My Results</u></h3>
+    <div class="row">
+      <div class="col-lg-6">
+        <h5>Enter your details</h5>
+          <form method="post">
+            <div class="mb-3">
+              <label class="form-label">Roll no : </label>
+              <input class="form-control" type="text" name="roll" id="roll">
+              <!-- error -->
+              <div class="text-danger" style="display: none;">Student roll number is required.</div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Date of Birth : </label>
+              <input class="form-control" type="date" name="dob" id="dob">
+              <!-- error -->
+              <div class="text-danger" style="display: none;">Student date ofbirth is required.</div>
+            </div>
+            <!-- error -->
+            <div class="mb-3">
+              <div class="text-danger" style="display: none;" id="invalidStudent">The provided details do not match.</div>
+            </div>
+
+            <div class="text-center my-lg-5">
+              <span class="px-3">
+                <a><button type="submit" class="btn btn-success w-25" onclick="blur()">Search Results</button></a>
+              </span>
+              <span class="px-3">
+                <button type="button" class="btn btn-warning" onclick="blur()">Clear</button>
+              </span>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Date of Birth : </label>
-        <input type="date" name="dob" class="form-control" id="exampleInputPassword1">
-      </div>
-      <a><button type="submit" class="btn btn-primary">Submit</button></a>
-  </form>
-</div>
+    </div>
+</section>

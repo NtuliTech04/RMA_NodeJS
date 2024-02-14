@@ -1,18 +1,22 @@
-<a href="/teacher/options" class="btn btn-info" style="margin-top:5px;">Back</a>
-<h4 >All Students</h4>
-<div class="tableDiv">
-  <table class="table table-striped">
-    <thead>
-      <tr>
-        <th scope="col">Roll No.</th>
-        <th scope="col">Name</th>       
-        <th scope="col">Date of Birth</th>
-        <th scope="col">Score</th>
-        <th scope="col">Actions</th>
-      </tr>
-    </thead>
-    <tbody>
-        <%  results.forEach(student => { %>
+<section class="form list-student-section container-fluid">
+  <a href="/teacher/options" class="btn btn-outline-dark">Go Back</a>
+  <div class="container list-students">
+    <h4 class="text-center"><u>All Students Results</u></h4>
+      <!-- No data message -->
+      <p class="no-data text-center text-danger" style="display: none;">No students have been added so far!</p>
+      <!-- Results list -->
+      <table class="table">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">Roll No.</th>
+            <th scope="col">Name</th>
+            <th scope="col">Date of Birth</th>
+            <th scope="col">Score</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <%  results.forEach(student => { %>
             <tr class="head">
                 <td><%= student.roll %></td>
                 <td><%= student.name %></td>               
@@ -24,6 +28,7 @@
                 </td>
               </tr>
         <%}) %>
-    </tbody>
-  </table>
-</div>
+        </tbody>
+      </table>
+    </div>
+</section>

@@ -1,22 +1,49 @@
-<a href="/teacher/list-results" class="btn btn-info" style="margin-top:5px;">Back</a>
-<h4>Editing Form for Student :<%= student.name %> </h4>
-<form method="POST" class="addStu" autocomplete="off">
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Name : </label>
-      <input type="text" name="name" required class="form-control" value="<%= student.name  %> " id="exampleInputEmail1">
-    </div>
-    <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Roll No. : </label>
-        <input type="number" name="roll" value="<%= student.roll  %> " required class="form-control" id="exampleInputEmail1" >
-      </div>     
-     
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Date of Birth : </label>
-        <input type="date" name="dob" value="<%= student.dob  %> " required class="form-control" id="exampleInputEmail1">
+<section class="form edit-student-section container-fluid">
+  <a href="/teacher/list-results" class="btn btn-outline-dark">Go Back</a>
+  <div class="container edit-student">
+    <h4 class="text-center"><u>Update Student Details</u></h4>
+    <form method="post">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="mb-3">
+            <label class="form-label">Roll No. : </label>
+            <input class="form-control" type="text" value="<%= student.roll  %> " maxlength="8" name="roll" id="roll">
+            <!-- error -->
+            <div class="text-danger" style="display: none;">Student roll number is required.</div>
+            <div class="text-danger" style="display: none;">Only numeric values are acceptable.</div>
+            <div class="text-danger" style="display: none;">Roll number must be 8 digits long.</div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Name : </label>
+            <input class="form-control" type="text" value="<%= student.name  %>" name="name" id="name">
+            <!-- error -->
+            <div class="text-danger" style="display: none;">Student full name is required.</div>
+            <div class="text-danger" style="display: none;">Invalid name format. E.g., Yanga Ntuli</div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Date of Birth : </label>
+            <input class="form-control" type="date" value="<%= student.dob  %> " name="dob" id="dob">
+            <!-- error -->
+            <div class="text-danger" style="display: none;">Student date of birth is required.</div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Score : </label>
+            <input class="form-control" type="text" value="<%= student.score  %> " maxlength="3" name="score" id="score">
+            <!-- error -->
+            <div class="text-danger" style="display: none;">Student results are mandatory.</div>
+            <div class="text-danger" style="display: none;">Only numeric values are acceptable.</div>
+            <div class="text-danger" style="display: none;">Student score cannot exceed 100%</div>
+          </div>
+
+          <div class="text-center mb-4">
+              <button type="submit" class="btn btn-success">Update Student</button>
+          </div>
+
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Score : </label>
-        <input type="number" name="score" value="<%= student.score  %> " required class="form-control" id="exampleInputEmail1">
-      </div>
-    <button type="submit" class="btn btn-success">Update</button>
-</form>
+    </form>
+  </div>
+</section>

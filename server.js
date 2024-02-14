@@ -43,11 +43,9 @@ server.get("/", (req, res) => {
     res.render("landing/index");
 });
 
-
 //Setting up port with express js
 const PORT = process.env.PORT || 8080
 server.listen(PORT, () => { console.log(`Server is running on http://localhost:${PORT}`) });
-
 
 // 404 page
 server.use((req, res) => {
