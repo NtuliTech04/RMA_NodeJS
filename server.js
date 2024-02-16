@@ -7,7 +7,7 @@ const morgan = require('morgan');
 
 //MongoDB configuration & connection
 const connectDb = require('./src/app/database/connection');
-dotenv.config({path: './src/environments/config.env'});
+dotenv.config({path: './config.env'});
 connectDb();
 
 const server = express();
