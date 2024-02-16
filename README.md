@@ -28,6 +28,9 @@ This is a small web application built to manage student results. It is a trainin
 
 # Screenshots 
 
+## Project Structure
+<img alt="landingpage" src="public/images/screenshots/Project Structure.png">
+
 ## Landing Page 
 <img alt="landingpage" src="public/images/screenshots/Landing.png">
 
