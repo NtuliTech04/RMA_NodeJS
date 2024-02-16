@@ -29,31 +29,31 @@ This is a small web application built to manage student results. It is a trainin
 # Screenshots 
 
 ## Project Structure
-<img alt="landingpage" src="public/images/screenshots/Project Structure.png">
+<img alt="project structure" src="public/images/screenshots/Project Structure.png">
 
 ## Landing Page 
-<img alt="landingpage" src="public/images/screenshots/Landing.png">
+<img alt="welcome page" src="public/images/screenshots/Landing.png">
 
 ## Teacher Login 
-<img alt="landingpage" src="public/images/screenshots/Teacher Login.png">
+<img alt="teacher login" src="public/images/screenshots/Teacher Login.png">
 
 ## Teacher Options
-<img alt="landingpage" src="public/images/screenshots/Teacher Options.png">
+<img alt="teacher option" src="public/images/screenshots/Teacher Options.png">
 
 ## List All Student Results
-<img alt="landingpage" src="public/images/screenshots/All Results.png">
+<img alt="all results" src="public/images/screenshots/All Results.png">
 
 ## Add Student Results
-<img alt="landingpage" src="public/images/screenshots/Add Results.png">
+<img alt="add results" src="public/images/screenshots/Add Results.png">
 
 ## Update Student Results
-<img alt="landingpage" src="public/images/screenshots/Update Results.png">
+<img alt="update results" src="public/images/screenshots/Update Results.png">
 
 ## Student Login 
-<img alt="landingpage" src="public/images/screenshots/Student Login.png">
+<img alt="student login" src="public/images/screenshots/Student Login.png">
 
 ## Single Student Results
-<img alt="landingpage" src="public/images/screenshots/My Results.png">
+<img alt="student results" src="public/images/screenshots/My Results.png">
 
 
 
