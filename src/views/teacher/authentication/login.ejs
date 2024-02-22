@@ -12,7 +12,7 @@
             <div class="text-danger" style="display: none;">Enter your password to login.</div>
             <div class="text-danger" style="display: none;" id="invalidPass">The provided password is incorrect.</div>
             <br>
-            <input type="checkbox" style="width: 30px;" onclick="myFunction()">Show Password
+            <input type="checkbox" style="width: 30px;" onclick="showPassword()">Show Password
             <br>
           </div>
           <a><button type="submit" class="btn btn-success">Login</button></a>
@@ -22,7 +22,7 @@
   </div>
 </section>
 <script>
-  function myFunction() {
+  function showPassword() {
   var x = document.getElementById("passTxt");
   if (x.type === "password") {
     x.type = "text";
